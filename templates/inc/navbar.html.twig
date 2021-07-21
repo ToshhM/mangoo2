@@ -1,0 +1,23 @@
+<nav class="navbar navbar-expand-sm navbar-dark bg-primary mb-3">
+<div class="container">
+  <a href="/" class="navbar-brand">MPIKA Toshiro Rattrapage</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-nav">
+    <span class="navbar-toggle-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="mobile-nav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a href="/" class="nav-link">Accueil</a>
+      </li>
+      <li class="nav-item">
+        <a href="{{ path('new_ingredient')}}" class="nav-link">Ajouter Ingredient</a>
+      </li>
+      <li class="nav-item">
+        <a href="{{ path('new_categorie')}}" class="nav-link">Ajouter catégorie</a>
+      </li>
+
+    </ul>
+  </div>
+</div>
+</nav>

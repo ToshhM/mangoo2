@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ ingredient.name }}{% endblock %}
+
+{% block body %}
+ <h1>{{ ingredient.name }}</h1>
+ <p>{{ ingredient.prix }}€  </p>
+ <p>{{ ingredient.categorie.name }}</p>  <!-- a verifier je modifie category en categorie -->
+ <hr>
+ <a href="/">Retour</a>
+{% endblock %}
